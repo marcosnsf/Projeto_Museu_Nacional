@@ -45,3 +45,21 @@ a:link, a:active, a:visited{
 a:hover{
     color: #227115;
 }
+/* conteudo principal */
+#conteudo{
+    width: 710px;
+    float: left;
+}
+aside{
+    width: 350px;
+    float: right;
+    background-color: #ebe7dd;
+}
+
+section #visita{
+    border: red solid;
+    background-color: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+/*--------------------*/
