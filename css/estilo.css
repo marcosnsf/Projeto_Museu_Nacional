@@ -54,14 +54,32 @@ aside{
     width: 350px;
     float: right;
     background-color: #ebe7dd;
+    margin-bottom: 32px;
 }
-
 section#visita{
     background-color: #cdc8b1;
     padding: 12px 28px 28px 28px;
     margin-top: 12px;
 }
+section#galeria h4{
+    display: flex;
+    justify-content: center;
+    padding: 4px 0;
+}
+section#galeria div.galeria{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div.galeria a{
+    display: block;
+    background: url(../img/fundo-foto.png) no-repeat;
+    padding: 16px;
+    margin: 10px 0 0 20px;
+}
 h4{
+    display: block;
     color: #86521a;
     text-transform: uppercase;
     padding-bottom: 4px;
@@ -69,29 +87,28 @@ h4{
 }
 /*--------------------*/
 /* Fomrularios */
-    input{
-        height: 20px;
-        width: 80px;
-        background: #fff;
-        border: none;
-        font-size: 1em;
+input{
+    height: 20px;
+    width: 80px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
 
-    }
-    input.campo{
-        border: 1px solid #ada484;
-    }
-    input.campo2{
-        width: 30px;
-    }
-    input.botao{
-        background: #9b9271;
-        color: white;
-        width: 100%;
-        height: 40px;
-        font-size: 1.2em;
-    }
-    fieldset{
-        border: none;
-    }
-    
+}
+input.campo{
+    border: 1px solid #ada484;
+}
+input.campo2{
+    width: 32px;
+}
+input.botao{
+    background: #9b9271;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+fieldset{
+    border: none;
+}  
 /* ------------------ */
