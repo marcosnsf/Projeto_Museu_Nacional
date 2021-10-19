@@ -45,14 +45,18 @@ a:link, a:active, a:visited{
 a:hover{
     color: #227115;
 }
+#principal{
+    display: flex;
+    flex-wrap: wrap;
+}
 /* conteudo principal */
 #conteudo{
     width: 710px;
-    float: left;
+    margin-right: 10px;
 }
 aside{
     width: 350px;
-    float: right;
+    
     background-color: #ebe7dd;
     margin-bottom: 32px;
 }
@@ -79,23 +83,26 @@ div.galeria a{
     margin: 10px 0 0 20px;
 }
 /*  */
-article#video{
-    float: left;
+section#postagens{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4px;
+}
+article#video{    
     width: 310px;
     margin-left: 24px;
 }
-article#mapa{
-    float: left;
+article#mapa{  
     width: 310px;
     margin-left: 36px;
 }
-article#exposicoes{
-    float: left;
+article#exposicoes{      
     width: 310px;
     margin:  16px 0 0 24px;
 }
-article#historia{
-    float: left;
+article#historia{    
     width: 310px;
     margin:  16px 0 0 36px;
 }
