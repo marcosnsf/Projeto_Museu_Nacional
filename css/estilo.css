@@ -1,3 +1,4 @@
+
 body{
     background: #f4f2ec url("../img/fundo.png" ) repeat-x;
     font: 12px "Lucida Grande", "Lucida Sans Unicode",Arial, sans-serif; 
@@ -58,7 +59,8 @@ aside{
     width: 350px;
     
     background-color: #ebe7dd;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
+    margin-bottom: 20px;
 }
 section#visita{
     background-color: #cdc8b1;
@@ -84,7 +86,6 @@ div.galeria a{
 }
 /*  */
 section#postagens{
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -148,3 +149,16 @@ fieldset{
     border: none;
 }  
 /* ------------------ */
+/* rodape */
+footer{
+    position: relative;
+    top:20px;
+    padding: 20px 0;
+    text-align: center;
+    background:url(../img/fundo-rodape.png) no-repeat center top ;
+}
+footer>p a {
+    padding: 2px 10px;
+}
+/* ------ */
+
